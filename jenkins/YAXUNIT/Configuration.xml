@@ -29,7 +29,12 @@
 		</InternalInfo>
 		<Properties>
 			<Name>YAXUNIT</Name>
-			<Synonym/>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>YAxUnit</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -37,13 +42,13 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>23.08.0</Version>
+			<Version>24.01.1</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ЮТДвижок</Subsystem>
-			<Subsystem>ЮТПодражатель</Subsystem>
-			<Subsystem>ЮТФункциональность</Subsystem>
+			<Subsystem>ЮТДинамическиПодключаемые</Subsystem>
+			<Subsystem>ЮТПубличный</Subsystem>
 			<CommonPicture>ЮТНеизвестный</CommonPicture>
 			<CommonPicture>ЮТОшибка</CommonPicture>
 			<CommonPicture>ЮТПодсистема</CommonPicture>
@@ -71,6 +76,7 @@
 			<CommonModule>ЮТЗапросы</CommonModule>
 			<CommonModule>ЮТЗапросыВызовСервера</CommonModule>
 			<CommonModule>ЮТЗапросыКлиентСервер</CommonModule>
+			<CommonModule>ЮТИсполнительГлобальный</CommonModule>
 			<CommonModule>ЮТИсполнительКлиент</CommonModule>
 			<CommonModule>ЮТИсполнительКлиентСервер</CommonModule>
 			<CommonModule>ЮТИсполнительСервер</CommonModule>
@@ -85,6 +91,7 @@
 			<CommonModule>ЮТКонтекстТеста</CommonModule>
 			<CommonModule>ЮТЛогирование</CommonModule>
 			<CommonModule>ЮТЛогированиеВызовСервера</CommonModule>
+			<CommonModule>ЮТЛокальСлужебный</CommonModule>
 			<CommonModule>ЮТМетаданные</CommonModule>
 			<CommonModule>ЮТМетаданныеПовтИсп</CommonModule>
 			<CommonModule>ЮТМетаданныеСервер</CommonModule>
@@ -110,6 +117,7 @@
 			<CommonModule>ЮТРасширения</CommonModule>
 			<CommonModule>ЮТРегистрацияОшибок</CommonModule>
 			<CommonModule>ЮТСобытия</CommonModule>
+			<CommonModule>ЮТСообщенияСлужебный</CommonModule>
 			<CommonModule>ЮТСравнениеКлиентСервер</CommonModule>
 			<CommonModule>ЮТСравнениеСервер</CommonModule>
 			<CommonModule>ЮТСтроки</CommonModule>
@@ -126,6 +134,7 @@
 			<CommonModule>ЮТФильтрация</CommonModule>
 			<CommonModule>ЮТЧитатель</CommonModule>
 			<CommonModule>ЮТЧитательСервер</CommonModule>
+			<DataProcessor>ЮТHTTPServiceRequest</DataProcessor>
 			<DataProcessor>ЮТHTTPСервисЗапрос</DataProcessor>
 			<DataProcessor>ЮТКонструкторТестовыхДанных</DataProcessor>
 			<DataProcessor>ЮТЮнитТесты</DataProcessor>
