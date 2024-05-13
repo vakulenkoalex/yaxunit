@@ -1,4 +1,4 @@
-# ![Logo](documentation/static/img/logo.png) YAXUnit. Расширение для запуска тестов
+# ![Logo](documentation/static/img/logo.png) YAxUnit. Расширение для запуска тестов
 
 ----
 
@@ -15,6 +15,8 @@
 
 ----
 
+![report](documentation/docs/images/report-ui.png)
+
 ## Документация
 
 [https://bia-technologies.github.io/yaxunit/](https://bia-technologies.github.io/yaxunit/)
@@ -29,7 +31,12 @@
 - [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation/graphs/contributors)
 - [add](https://github.com/vanessa-opensource/add/graphs/contributors)
 
----
+----
+
+## Использованные ресурсы
+
+- В продукте используется иконки из набора [IntelliJ Platform UI](https://jetbrains.design/intellij).  
+  Copyright 2000-2023 JetBrains s.r.o. and contributors. [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Лицензия
 

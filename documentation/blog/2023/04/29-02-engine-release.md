@@ -4,7 +4,7 @@ authors: alkoleft
 tags: [releases, yaxunit]
 ---
 
-[Release 23.04](https://github.com/bia-technologies/edt-test-runner/releases/tag/23.04)
+[Release 23.04](https://github.com/bia-technologies/yaxunit/releases/tag/23.04)
 
 ## Новое в версии
 
@@ -34,7 +34,5 @@ tags: [releases, yaxunit]
 * Доработан движок для работы в режиме без использования синхронных методов
 
 :::caution Внимание
-
 В ближайших версиях будет удален вариант точки входа в тестовый модуль ИсполняемыеСценарии с параметрами.
-
 :::
