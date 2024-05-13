@@ -50,7 +50,7 @@
 					<Representation>PictureAndText</Representation>
 					<ToolTip/>
 					<Picture>
-						<xr:Ref>CommonPicture.ЮТПодсистема</xr:Ref>
+						<xr:Ref>CommonPicture.ЮТЗапустить</xr:Ref>
 						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>

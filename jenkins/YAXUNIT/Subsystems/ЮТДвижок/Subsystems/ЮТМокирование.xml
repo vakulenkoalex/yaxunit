@@ -21,9 +21,12 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МокитоОбучение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МокитоПерехват</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МокитоПроверки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МокитоСлужебный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЮТHTTPServiceRequest</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЮТHTTPСервисЗапрос</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЮТRecordSet</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

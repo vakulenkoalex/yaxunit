@@ -42,17 +42,20 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>24.01.1</Version>
+			<Version>24.04</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ЮТДвижок</Subsystem>
-			<Subsystem>ЮТДинамическиПодключаемые</Subsystem>
+			<Subsystem>ЮТПодключаемыеМодули</Subsystem>
 			<Subsystem>ЮТПубличный</Subsystem>
+			<CommonPicture>ЮТЗапустить</CommonPicture>
 			<CommonPicture>ЮТНеизвестный</CommonPicture>
 			<CommonPicture>ЮТОшибка</CommonPicture>
+			<CommonPicture>ЮТПерезапуститьУпавшие</CommonPicture>
 			<CommonPicture>ЮТПодсистема</CommonPicture>
 			<CommonPicture>ЮТПропущен</CommonPicture>
+			<CommonPicture>ЮТСравнить</CommonPicture>
 			<CommonPicture>ЮТУпал</CommonPicture>
 			<CommonPicture>ЮТУспешно</CommonPicture>
 			<CommonPicture>ЮТЭлементыТестов</CommonPicture>
@@ -66,76 +69,97 @@
 			<CommonTemplate>ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</CommonTemplate>
 			<CommonTemplate>ЮТRegEx1CAddin</CommonTemplate>
 			<CommonTemplate>ЮТYaxUnitAddIn</CommonTemplate>
+			<CommonTemplate>ЮТИнформацияОбОшибке</CommonTemplate>
 			<CommonTemplate>ЮТОписаниеМетаданных</CommonTemplate>
 			<CommonModule>Мокито</CommonModule>
 			<CommonModule>МокитоОбучение</CommonModule>
+			<CommonModule>МокитоПерехват</CommonModule>
 			<CommonModule>МокитоПроверки</CommonModule>
 			<CommonModule>МокитоСлужебный</CommonModule>
 			<CommonModule>ЮТАсинхроннаяОбработкаСлужебныйКлиент</CommonModule>
 			<CommonModule>ЮТест</CommonModule>
+			<CommonModule>ЮТЗависимости</CommonModule>
+			<CommonModule>ЮТЗависимостиСлужебный</CommonModule>
+			<CommonModule>ЮТЗависимостиСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТЗависимостиСлужебныйКлиент</CommonModule>
 			<CommonModule>ЮТЗапросы</CommonModule>
-			<CommonModule>ЮТЗапросыВызовСервера</CommonModule>
-			<CommonModule>ЮТЗапросыКлиентСервер</CommonModule>
-			<CommonModule>ЮТИсполнительГлобальный</CommonModule>
-			<CommonModule>ЮТИсполнительКлиент</CommonModule>
-			<CommonModule>ЮТИсполнительКлиентСервер</CommonModule>
-			<CommonModule>ЮТИсполнительСервер</CommonModule>
+			<CommonModule>ЮТЗапросыСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТЗапросыСлужебныйКлиентСервер</CommonModule>
+			<CommonModule>ЮТИсключения</CommonModule>
+			<CommonModule>ЮТИсполнительСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТИсполнительСлужебныйГлобальный</CommonModule>
+			<CommonModule>ЮТИсполнительСлужебныйКлиент</CommonModule>
+			<CommonModule>ЮТИсполнительСлужебныйКлиентСервер</CommonModule>
+			<CommonModule>ЮТКоллекции</CommonModule>
 			<CommonModule>ЮТКомпоненты</CommonModule>
-			<CommonModule>ЮТКомпонентыВызовСервера</CommonModule>
-			<CommonModule>ЮТКомпонентыКлиент</CommonModule>
+			<CommonModule>ЮТКомпонентыСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТКомпонентыСлужебныйКлиент</CommonModule>
 			<CommonModule>ЮТКонструкторВариантов</CommonModule>
 			<CommonModule>ЮТКонструкторТестовыхДанныхСлужебный</CommonModule>
-			<CommonModule>ЮТКонтекст</CommonModule>
-			<CommonModule>ЮТКонтекстКлиент</CommonModule>
-			<CommonModule>ЮТКонтекстСервер</CommonModule>
+			<CommonModule>ЮТКонтекстСлужебный</CommonModule>
+			<CommonModule>ЮТКонтекстСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТКонтекстСлужебныйКлиент</CommonModule>
 			<CommonModule>ЮТКонтекстТеста</CommonModule>
 			<CommonModule>ЮТЛогирование</CommonModule>
-			<CommonModule>ЮТЛогированиеВызовСервера</CommonModule>
+			<CommonModule>ЮТЛогированиеСлужебный</CommonModule>
+			<CommonModule>ЮТЛогированиеСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТЛогИсполненияТестаСлужебный</CommonModule>
 			<CommonModule>ЮТЛокальСлужебный</CommonModule>
 			<CommonModule>ЮТМетаданные</CommonModule>
-			<CommonModule>ЮТМетаданныеПовтИсп</CommonModule>
-			<CommonModule>ЮТМетаданныеСервер</CommonModule>
+			<CommonModule>ЮТМетаданныеСлужебный</CommonModule>
+			<CommonModule>ЮТМетаданныеСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТМетаданныеСлужебныйПовтИсп</CommonModule>
+			<CommonModule>ЮТМетодыСлужебный</CommonModule>
 			<CommonModule>ЮТНастройкиВыполнения</CommonModule>
 			<CommonModule>ЮТОбщий</CommonModule>
-			<CommonModule>ЮТОбщийВызовСервера</CommonModule>
-			<CommonModule>ЮТОтчет</CommonModule>
-			<CommonModule>ЮТОтчетJSON</CommonModule>
-			<CommonModule>ЮТОтчетJUnit</CommonModule>
-			<CommonModule>ЮТПараметрыЗапуска</CommonModule>
-			<CommonModule>ЮТПовторногоИспользования</CommonModule>
+			<CommonModule>ЮТОбщийСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТОтчетAllureСлужебный</CommonModule>
+			<CommonModule>ЮТОтчетJSONСлужебный</CommonModule>
+			<CommonModule>ЮТОтчетJUnitСлужебный</CommonModule>
+			<CommonModule>ЮТОтчетСлужебный</CommonModule>
+			<CommonModule>ЮТПараметрыЗапускаСлужебный</CommonModule>
+			<CommonModule>ЮТПодключаемыеМодулиСлужебный</CommonModule>
+			<CommonModule>ЮТПодключаемыеМодулиСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ЮТПодражатель</CommonModule>
 			<CommonModule>ЮТПодражатель_Банки</CommonModule>
 			<CommonModule>ЮТПодражатель_Компании</CommonModule>
 			<CommonModule>ЮТПодражатель_Люди</CommonModule>
-			<CommonModule>ЮТПодражательВызовСервера</CommonModule>
-			<CommonModule>ЮТПодражательПовтИсп</CommonModule>
 			<CommonModule>ЮТПодражательСлужебный</CommonModule>
+			<CommonModule>ЮТПодражательСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТПодражательСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ЮТПредикаты</CommonModule>
-			<CommonModule>ЮТПредикатыКлиентСервер</CommonModule>
-			<CommonModule>ЮТПреобразования</CommonModule>
+			<CommonModule>ЮТПредикатыСлужебныйКлиентСервер</CommonModule>
+			<CommonModule>ЮТПреобразованияСлужебный</CommonModule>
 			<CommonModule>ЮТПроверкиСлужебный</CommonModule>
-			<CommonModule>ЮТРасширения</CommonModule>
+			<CommonModule>ЮТРазрешениеЗависимостейСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТРазрешениеЗависимостейСлужебныйКлиент</CommonModule>
 			<CommonModule>ЮТРегистрацияОшибок</CommonModule>
-			<CommonModule>ЮТСобытия</CommonModule>
+			<CommonModule>ЮТРегистрацияОшибокСлужебный</CommonModule>
+			<CommonModule>ЮТСлужебныйПовторногоИспользования</CommonModule>
+			<CommonModule>ЮТСобытияСлужебный</CommonModule>
 			<CommonModule>ЮТСообщенияСлужебный</CommonModule>
-			<CommonModule>ЮТСравнениеКлиентСервер</CommonModule>
-			<CommonModule>ЮТСравнениеСервер</CommonModule>
+			<CommonModule>ЮТСравнениеСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТСравнениеСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ЮТСтроки</CommonModule>
 			<CommonModule>ЮТТестовыеДанные</CommonModule>
-			<CommonModule>ЮТТестовыеДанные_ТаблицыЗначений</CommonModule>
-			<CommonModule>ЮТТестовыеДанныеВызовСервера</CommonModule>
 			<CommonModule>ЮТТестовыеДанныеСлужебный</CommonModule>
+			<CommonModule>ЮТТестовыеДанныеСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТТестовыеДанныеСлужебныйТаблицыЗначений</CommonModule>
 			<CommonModule>ЮТТесты</CommonModule>
+			<CommonModule>ЮТТестыСлужебный</CommonModule>
 			<CommonModule>ЮТТипыДанныхСлужебный</CommonModule>
 			<CommonModule>ЮТУтверждения</CommonModule>
 			<CommonModule>ЮТУтвержденияИБ</CommonModule>
 			<CommonModule>ЮТФабрика</CommonModule>
+			<CommonModule>ЮТФабрикаСлужебный</CommonModule>
 			<CommonModule>ЮТФайлы</CommonModule>
-			<CommonModule>ЮТФильтрация</CommonModule>
-			<CommonModule>ЮТЧитатель</CommonModule>
-			<CommonModule>ЮТЧитательСервер</CommonModule>
+			<CommonModule>ЮТФильтрацияСлужебный</CommonModule>
+			<CommonModule>ЮТЧитательСлужебный</CommonModule>
+			<CommonModule>ЮТЧитательСлужебныйВызовСервера</CommonModule>
 			<DataProcessor>ЮТHTTPServiceRequest</DataProcessor>
 			<DataProcessor>ЮТHTTPСервисЗапрос</DataProcessor>
+			<DataProcessor>ЮТRecordSet</DataProcessor>
+			<DataProcessor>ЮТКонструкторОбъектаXDTO</DataProcessor>
 			<DataProcessor>ЮТКонструкторТестовыхДанных</DataProcessor>
 			<DataProcessor>ЮТЮнитТесты</DataProcessor>
 		</ChildObjects>

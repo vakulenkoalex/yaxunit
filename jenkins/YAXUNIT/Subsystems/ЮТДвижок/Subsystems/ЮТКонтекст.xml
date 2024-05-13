@@ -20,10 +20,10 @@
 			</Explanation>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЮТКонтекст</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЮТКонтекстКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЮТКонтекстСлужебный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЮТКонтекстСлужебныйВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЮТКонтекстСлужебныйКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЮТКонтекстТеста</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЮТКонтекстСервер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
